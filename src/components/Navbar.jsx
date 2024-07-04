@@ -10,13 +10,15 @@ import user from "../assets/svg/user.svg";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+
   return (
     <>
-    <div className="text-center text-white bg-[#FF5700] w-full overflow-hidden">
-        <h1 className="h8">Sign in to get discount</h1>
+    <div className="text-center text-white bg-[#FF5700] 
+      w-full overflow-hidden">
+      <h1 className="h8">Sign in to get discount</h1>
     </div>
 
-    <div className={`${styles.paddingX} ${styles.flexCenter} border border-b-zinc-200 bg-stone-50`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter} border border-b-zinc-200 bg-stone-50 sticky top-0 z-1`}>
       <div className={`${styles.boxWidth}`}>
         <nav className="w-full flex py-5 justify-between items-center navbar">
           <a href="#">
@@ -34,7 +36,7 @@ const Navbar = () => {
           </ul>
           
           <ul className="list-none md:flex hidden">
-            <img src={search} alt="search" className="w-[20px] h-[20px] mr-5" />
+            <button id={}><img src={search} alt="search" className="w-[20px] h-[20px] mr-5" /></button>
             <img src={cart} alt="cart" className="w-[20px] h-[20px] mr-5" />
             <img src={user} alt="user" className="w-[20px] h-[20px] mr-5" />
           </ul>
@@ -49,7 +51,7 @@ const Navbar = () => {
               <div className={`${toggle ? 'flex' : 'hidden'} 
               p-6 bg-gradient-to-r from-slate-300 to-slate-200 absolute transition
               ease-in-out delay-150
-              top-20 right-0 mx-2 my-4 min-w-[150px] rounded-xl sidebar`}>
+              top-20 right-0 mx-2 my-4 min-w-[150px] h-[300px] rounded-xl sidebar z-1`}>
                 <ul className="list-none flex flex-col justify-center items-center flex-1">
                   {navLinks.map((nav, index) => (
                     <li 

@@ -1,7 +1,15 @@
 // import { facebook, instagram, linkedin, twitter, send, shield, star  } from "../assets";
 // import { footerlogo, logo } from "../assets/logo";
 // import { hero1, hero2, hero3 } from "../assets/heroheader";
-// import { food, fresh, grocery, liqour, meds, plants, refillingstation, shops } from "../assets/shop-icons";
+import food from "../assets/shop-icons/food.png";
+import fresh from "../assets/shop-icons/fresh.png";
+import shops from "../assets/shop-icons/shops.png";
+import grocery from "../assets/shop-icons/grocery.png";
+import plants from "../assets/shop-icons/plants.png";
+import liqour from "../assets/shop-icons/liqour.png";
+import meds from "../assets/shop-icons/meds.png";
+import refillingstation from "../assets/shop-icons/refillingstation.png";
+
 
 export const navLinks = [
   {
@@ -26,29 +34,48 @@ export const navLinks = [
   },
 ];
 
-// export const features = [
-//   {
-//     id: "feature-1",
-//     icon: star,
-//     title: "Rewards",
-//     content:
-//       "The best credit cards offer some tantalizing combinations of promotions and prizes",
-//   },
-//   {
-//     id: "feature-2",
-//     icon: shield,
-//     title: "100% Secured",
-//     content:
-//       "We take proactive steps make sure your information and transactions are secure.",
-//   },
-//   {
-//     id: "feature-3",
-//     icon: send,
-//     title: "Balance Transfer",
-//     content:
-//       "A balance transfer credit card can save you a lot of money in interest charges.",
-//   },
-// ];
+export const categories = [
+  {
+    id: "food",
+    img: food,
+    title: "Food",
+  },
+  {
+    id: "grocery",
+    img: grocery,
+    title: "Grocery",
+  },
+  {
+    id: "plants",
+    img: plants,
+    title: "Plants",
+  },
+  {
+    id: "liqour",
+    img: liqour,
+    title: "Liqour",
+  },
+  {
+    id: "meds",
+    img: meds,
+    title: "Medicine",
+  },
+  {
+    id: "refillingstation",
+    img: refillingstation,
+    title: "Refilling Station",
+  },
+  {
+    id: "shops",
+    img: shops,
+    title: "Shops",
+  },
+  {
+    id: "fresh",
+    img: fresh,
+    title: "Fresh",
+  },
+];
 
 // export const feedback = [
 //   {

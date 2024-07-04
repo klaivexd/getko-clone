@@ -14,17 +14,17 @@ const Hero = () => {
         infiniteLoop={true}
         autoPlay={true}
         interval={4000} // Change interval as needed
-        stopOnHover={true}
+        stopOnHover={false}
         className="w-full"
       >
         <div className="h-96">
-          <img src={hero1} alt="Slide 1" className="w-full h-full object-cover" />
+          <img src={hero1} alt="Slide 1" className="w-full h-full object-contain" />
         </div>
         <div className="h-96">
-          <img src={hero2} alt="Slide 2" className="w-full h-full object-cover" />
+          <img src={hero2} alt="Slide 2" className="w-full h-full object-contain" />
         </div>
         <div className="h-96">
-          <img src={hero3} alt="Slide 3" className="w-full h-full object-cover" />
+          <img src={hero3} alt="Slide 3" className="w-full h-full object-contain" />
         </div>
       </Carousel>
     </div>
