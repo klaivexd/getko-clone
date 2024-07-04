@@ -36,7 +36,7 @@ const Navbar = () => {
           </ul>
           
           <ul className="list-none md:flex hidden">
-            <button id={}><img src={search} alt="search" className="w-[20px] h-[20px] mr-5" /></button>
+            <button><img src={search} alt="search" className="w-[20px] h-[20px] mr-5" /></button>
             <img src={cart} alt="cart" className="w-[20px] h-[20px] mr-5" />
             <img src={user} alt="user" className="w-[20px] h-[20px] mr-5" />
           </ul>
