@@ -21,14 +21,14 @@ const Navbar = () => {
     <div className={`${styles.paddingX} ${styles.flexCenter} border border-b-zinc-200 bg-stone-50 sticky top-0 z-1`}>
       <div className={`${styles.boxWidth}`}>
         <nav className="w-full flex py-5 justify-between items-center navbar">
-          <a href="#">
+          <a href="/">
             <img src={logo} alt="getko" className="w-[140px] h-[50px] mr-10"/>
           </a>
           <ul className="list-none md:flex hidden justify-center items-center flex-1">
             {navLinks.map((nav, index) => (
               <li 
                 key={nav.id} className={`mr-10`}>
-                <a href={`#${nav.id}`}>
+                <a href={`${nav.id}`}>
                   {nav.title}
                 </a>
               </li>
@@ -56,7 +56,7 @@ const Navbar = () => {
                   {navLinks.map((nav, index) => (
                     <li 
                       key={nav.id} className={`mt-2 mr-10 mb-3`}>
-                      <a href={`#${nav.id}`}>
+                      <a href={`${nav.id}`}>
                         {nav.title}
                       </a>
                     </li>

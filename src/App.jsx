@@ -8,11 +8,11 @@ const App = () => {
     <>
       <Navbar />
 
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-       <div className={`${styles.boxWidth}`}>
-        <Hero />
-       </div>
-    </div>
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Hero />
+        </div>
+      </div>
 
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
