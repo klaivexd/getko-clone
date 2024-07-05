@@ -12,9 +12,9 @@ const CTA = () => {
     <>
       {/* CTA CARD */}
       <section className={`${layout.section} container p4`}>
-        <div className={`${layout.sectionInfo} bg-[url('src/assets/cta/cta1.png')] bg-opacity-95
+        <div className={`${layout.sectionInfo} bg-[url('src/assets/cta/cta1.png')] bg-opacity-70
           p-4 grid grid-cols-1 lg:grid-cols-2 gap-8 justify-items-center bg-color-7 
-          rounded-3xl text-[#0A1117]`}>
+          rounded-3xl text-[#000000]`}>
           <div className="p-5">
             <h1 className="h5">Download our mobile app</h1>
             <br className='sm:block hidden' />
@@ -101,9 +101,9 @@ const CTA = () => {
                   </svg>
                 </button>
                 <div className={`grid overflow-hidden transition-all duration-300 ease-in-out
-                  text-slate-600 text-sm 
+                  text-slate-600 text-sm
                   ${accordionOpen 
-                  ? 'grid-rows-[1fr] opacity-100' 
+                  ? 'grid-rows-[1fr] opacity-100 mt-6' 
                   : 'grid-rows-[0fr] opacity-0'}`}>
                   <div className='overflow-hidden'>
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
