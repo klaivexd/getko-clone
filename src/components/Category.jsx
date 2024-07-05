@@ -15,7 +15,8 @@ const Category = () => {
               <img
                 src={`${category.img}`} // Adjust path as per your project structure
                 alt={category.name}
-                className="transition hover: object-cover w-auto h-40 mb-2 rounded-tl-3xl rounded-br-3xl p-2"
+                className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-yellow-400 duration-300
+                object-cover w-auto h-40 mb-2 rounded-tl-3xl rounded-br-3xl p-2"
               />
             </a>
             <span className="text-sm font-bold">{category.title}</span>
