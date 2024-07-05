@@ -27,7 +27,7 @@ const Navbar = () => {
           <ul className="list-none md:flex hidden justify-center items-center flex-1">
             {navLinks.map((nav, index) => (
               <li 
-                key={nav.id} className={`mr-10`}>
+                key={nav.id} className={`mr-10 hover:text-gray-500`}>
                 <a href={`${nav.id}`}>
                   {nav.title}
                 </a>
@@ -37,8 +37,8 @@ const Navbar = () => {
           
           <ul className="list-none md:flex hidden">
             <button><img src={search} alt="search" className="w-[20px] h-[20px] mr-5" /></button>
-            <img src={cart} alt="cart" className="w-[20px] h-[20px] mr-5" />
-            <img src={user} alt="user" className="w-[20px] h-[20px] mr-5" />
+            <button><img src={cart} alt="cart" className="w-[20px] h-[20px] mr-5" /></button>
+            <button><img src={user} alt="user" className="w-[20px] h-[20px] mr-5" /></button>
           </ul>
 
           <div className="md:hidden flex flex-1 justify-end items-center">
