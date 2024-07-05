@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <>
-    <div className="text-center text-white bg-[#FF5700] 
+    <div className="text-center text-white bg-[#FF762F] 
       w-full overflow-hidden">
       <h1 className="h8">Sign in to get discount</h1>
     </div>
@@ -45,7 +45,7 @@ const Navbar = () => {
             <img 
               src={toggle ? close : menu} 
               alt="menu"
-              className='w-[25px] h-[25px] object-contain'
+              className='w-[25px] h-[25px] object-contain cursor-pointer'
               onClick={() => setToggle((prev) => !prev)}/>
 
               <div className={`${toggle ? 'flex' : 'hidden'} 

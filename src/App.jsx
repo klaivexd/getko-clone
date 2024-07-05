@@ -18,9 +18,9 @@ const App = () => {
       <div className={`${styles.boxWidth}`}>
         <Category />
         <CTA />
-        <Footer />
-      </div>  
+      </div>
     </div>
+    <Footer />
     </>
   );
 }
